@@ -18,7 +18,7 @@ python -m SimpleHTTPServer 6666
 
 find by filename
 ```bash
-find / -type f -name <PART_OF_FILE_NAME> 2>/dev/null
+find / -type f -name "<PART_OF_FILE_NAME>" 2>/dev/null
 ```
 
 ## windows
