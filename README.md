@@ -25,13 +25,13 @@ find / -type f -name "<PART_OF_FILE_NAME>" 2>/dev/null
 
 find service by part of name and view information
 
-```console
+```bash
 sc query | findstr /i "<PART_OF_SERVICE_NAME>"
 sc qc <SERVICE_NAME>
 ```
 
 check perm
 
-```console
+```bash
 icacls <FILE_NAME>
 ```
