@@ -46,8 +46,10 @@ sc query | findstr /i "<PART_OF_SERVICE_NAME>"
 sc qc <SERVICE_NAME>
 ```
 
-check perm
+check perm + update
 
 ```bash
 icacls <FILE_NAME>
+icacls <FILE_NAME> /grant EVERYONE:F
 ```
+
