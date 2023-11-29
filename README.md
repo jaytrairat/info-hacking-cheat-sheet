@@ -18,7 +18,7 @@ python -m SimpleHTTPServer 6666
 
 find by filename
 ```bash
-find / -type f -name test.txt 2>/dev/null
+find / -type f -name <PART_OF_FILE_NAME> 2>/dev/null
 ```
 
 ## windows
@@ -28,4 +28,10 @@ find service by part of name and view information
 ```console
 sc query | findstr /i "<PART_OF_SERVICE_NAME>"
 sc qc <SERVICE_NAME>
+```
+
+check perm
+
+```console
+icacls <FILE_NAME>
 ```
