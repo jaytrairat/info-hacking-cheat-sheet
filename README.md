@@ -25,6 +25,12 @@ find / -type f -name test.txt 2>/dev/null
 
 ## windows
 
+### services
+```cmd
+sc query | findstr /i "<PART_OF_SERVICE_NAME>"
+sc qc <SERVICE_NAME>
+```
+
 ### find
 
 findstr
