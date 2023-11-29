@@ -29,9 +29,3 @@ find service by part of name and view information
 sc query | findstr /i "<PART_OF_SERVICE_NAME>"
 sc qc <SERVICE_NAME>
 ```
-
-findstr
-
-```console
-| findstr /i "test"
-```
