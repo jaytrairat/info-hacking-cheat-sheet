@@ -3,11 +3,13 @@
 ## python
 
 run server python3
+
 ```bash
 python3 -m http.server 6666
 ```
 
 run server python3
+
 ```bash
 python -m SimpleHTTPServer 6666
 ```
@@ -22,11 +24,14 @@ find / -type f -name test.txt 2>/dev/null
 ## windows
 
 find service by part of name and view information
-```cmd
+
+```console
 sc query | findstr /i "<PART_OF_SERVICE_NAME>"
 sc qc <SERVICE_NAME>
 ```
+
 findstr
-```cmd
+
+```console
 | findstr /i "test"
 ```
