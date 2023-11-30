@@ -1,5 +1,12 @@
 # info-hacking-cheat-sheet
 
+# recon
+
+searh for exploit
+```bash
+searchsploit <NAME>
+```
+
 ## msfvenom
 
 create payload
