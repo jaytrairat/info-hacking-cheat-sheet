@@ -60,3 +60,8 @@ icacls <FILE_NAME>
 icacls <FILE_NAME> /grant EVERYONE:F
 ```
 
+## mirror site
+```bash
+wget --mirror --convert-links --adjust-extension --page-requisites --no-parent URL
+```
+
